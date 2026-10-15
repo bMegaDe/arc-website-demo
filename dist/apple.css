@@ -73,3 +73,6 @@ html{scroll-padding-top:6rem}body{font-family:-apple-system,BlinkMacSystemFont,"
 @media(hover:hover) and (pointer:fine){.hero-scenic .portal-entry-card:hover{background:#fff;border-color:#d9b2b9}}
 @media(max-width:680px){.hero.hero-scenic{padding-block:1.5rem 2rem}.hero-scenic>img.hero-background{object-position:46% center}}
 @media(prefers-reduced-transparency:reduce){.hero-scenic .portal-entry-card{background:#fff}}
+
+/* Keep both heads visible in the Humanmedizin page introduction. */
+.intro-portrait-human img{object-position:center top}
