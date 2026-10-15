@@ -76,3 +76,6 @@ html{scroll-padding-top:6rem}body{font-family:-apple-system,BlinkMacSystemFont,"
 
 /* Keep both heads visible in the Humanmedizin page introduction. */
 .intro-portrait-human img{object-position:center top}
+
+/* Breathing room before the grey service-card section. */
+.service-intro{padding-bottom:clamp(2.5rem,5vw,4.5rem)}
