@@ -63,3 +63,13 @@ html{scroll-padding-top:6rem}body{font-family:-apple-system,BlinkMacSystemFont,"
 @media(prefers-reduced-transparency:reduce){.button,.cta .button{background:#f8ebed}.header,dialog{background:#fbfbfd;backdrop-filter:none;-webkit-backdrop-filter:none}.about-photo>span{background:#fff}}
 @media(prefers-contrast:more){:root{--muted:#424245;--red:#86131d;--line:#737377}.button,.cta .button{color:#74101a;border-color:#981721}.header,.submenu,dialog{background:#fff;border:1px solid #515154;backdrop-filter:none;-webkit-backdrop-filter:none}.field-card,.benefit-list article,.steps article,.person,.portal-section>a,.download-list article,.engagement-grid article{border:1px solid #737377}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:background-color 100ms ease,color 100ms ease,opacity 100ms ease!important}.portrait-strip:hover img,.field-card:hover,.button:active{transform:none}.submenu,.nav-row nav,dialog{will-change:auto}}
+
+/* Original ARC landscape, limited to the homepage introduction. */
+.hero.hero-scenic{position:relative;isolation:isolate;overflow:hidden;padding-block:2.5rem 3.5rem;background:#d8e4e6}
+.hero-scenic>img.hero-background{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 48%;z-index:-2}
+.hero-scenic:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(255,255,255,.35),rgba(255,255,255,.22) 65%,rgba(255,255,255,.36))}
+.hero-scenic .lead{color:#303338}
+.hero-scenic .portal-entry-card{background:rgba(255,255,255,.91);border-color:rgba(255,255,255,.85);box-shadow:0 4px 20px #193b5010}
+@media(hover:hover) and (pointer:fine){.hero-scenic .portal-entry-card:hover{background:#fff;border-color:#d9b2b9}}
+@media(max-width:680px){.hero.hero-scenic{padding-block:1.5rem 2rem}.hero-scenic>img.hero-background{object-position:46% center}}
+@media(prefers-reduced-transparency:reduce){.hero-scenic .portal-entry-card{background:#fff}}
